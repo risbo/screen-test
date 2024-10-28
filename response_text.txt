@@ -1,1 +1,19 @@
-Subject, next, next
+public class Platformer {
+    private int position;
+    
+    public Platformer(int n, int position) {
+        this.position = position;
+    }
+    
+    public void jumpLeft() {
+        position -= 2;
+    }
+
+    public void jumpRight() {
+        position += 2;
+    }
+    
+    public int position() {
+        return position;
+    }
+}
