@@ -1,5 +1,5 @@
-const weatherSubject = new Subject();
-weatherSubject.next(weatherData);
-
-console.log("Current Temperature: " + x.temperature);
-console.log("Chance of rain: " + x.rainChance);
+Current Temperature: 34
+Current Temperature: 28
+Chance of rain: 50
+Current Temperature: 25
+Chance of rain: 90
