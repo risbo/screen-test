@@ -1,3 +1,5 @@
-logger.subscribe() can be called to resume logging after calling logger.unsubscribe().
-If seconds.subscribe() is called after 5 seconds, the first value that it pushes will be 6.
-“Seconds passed: 0" will be printed to the console.
+next code segment
+temperature,
+next,
+complete,
+temperature,
