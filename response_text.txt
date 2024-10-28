@@ -1,5 +1,1 @@
-Current Temperature: 34
-Current Temperature: 28
-Chance of rain: 50
-Current Temperature: 25
-Chance of rain: 90
+Subject, next, next
