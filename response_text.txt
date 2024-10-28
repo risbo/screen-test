@@ -1,1 +1,1 @@
-20, Q, X
+weatherSubject.next({temperature: weatherData.temperature, rainChance: weatherData.rainChance});
