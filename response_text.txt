@@ -1,1 +1,1 @@
-Monthly (once per month)
+template: `<h1>Hello {{name}}</h1>`
