@@ -1,1 +1,1 @@
-Yearly (once per year)
+template: `<h1>Hello {{name}}</h1>`
