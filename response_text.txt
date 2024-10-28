@@ -1,5 +1,5 @@
-Correct answers: 
-
-- When a component depends on a service, the injector can be used to configure dependency injection.
-- A component defines its input parameters with the @Input decorator.
-- A components ngOnDestroy method is called just before Angular destroys the component.
+template: `<div>
+<ul>
+<li *ngFor="let item of items">{{item}}</li>
+</ul>
+</div>`
