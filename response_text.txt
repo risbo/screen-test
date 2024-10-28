@@ -1,1 +1,11 @@
-SELECT * FROM guestData WHERE firstName LIKE "a_";
+@Component
+public class QuestionProperties {
+    @Value("${question.template}")
+    public String template;
+}
+
+@Component
+public class TimingProperties {
+    @Value("${timing.minimum:10}")
+    public Integer minimum;
+}
