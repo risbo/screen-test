@@ -1,3 +1,25 @@
-public int position() {
-    return position;
+public class Platformer {
+
+private int position;
+
+public Platformer(int n, int position) {
+this.position = position;
 }
+
+public void jumpLeft() {
+position -= 2;
+}
+
+public void jumpRight() {
+position += 2;
+}
+
+public int position() {
+return position;
+}
+
+public static void main(String[] args) {
+Platformer platformer = new Platformer(6, 3);
+System.out.println(platformer. position()); 
+platformer. jumpLeft();
+System.out.println(platform
