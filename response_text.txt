@@ -1,9 +1,8 @@
-```java
 public class Platformer {
     private int position;
 
-    public Platformer(int n, int position) {
-        this.position = position;
+    public Platformer(int N, int X) {
+        this.position = X;
     }
 
     public void jumpLeft() {
@@ -17,7 +16,4 @@ public class Platformer {
     public int position() {
         return position;
     }
-
-    public static void main(String[] args) {
-        Platformer platformer = new Platformer(6, 3);
-        
+}
