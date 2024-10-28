@@ -1,1 +1,5 @@
-weatherSubject.next({temperature: weatherData.temperature, rainChance: weatherData.rainChance});
+const weatherSubject = new Subject();
+weatherSubject.next(weatherData);
+
+console.log("Current Temperature: " + x.temperature);
+console.log("Chance of rain: " + x.rainChance);
