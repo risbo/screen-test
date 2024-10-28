@@ -1,1 +1,7 @@
-Yearly
+@Component({
+  selector: 'app-root',
+  template: '<h1>Hello {{ name }}</h1>'
+})
+export class Greeter {
+  @Input() name: string;
+}
