@@ -1,1 +1,1 @@
-template: `<counter [count]="counterState" (countChange)="counterState = $event"></counter>`
+Parking is available to customers for free.
