@@ -1,1 +1,1 @@
-return (a + b) / 2;
+Yearly (once per year)
