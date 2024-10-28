@@ -1,5 +1,1 @@
-next code segment
-temperature,
-next,
-complete,
-temperature,
+weatherSubject.next(x);  //answer
