@@ -1,1 +1,1 @@
-weatherSubject.next(x);  //answer
+Subject, next
